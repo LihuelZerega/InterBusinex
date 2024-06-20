@@ -10,7 +10,7 @@ export function Trusted() {
           <div className="lg:w-1/3 text-3xl md:text-4xl xl:text-5xl font-semibold text-[#05052b] mb-4 lg:mb-0 lg:pr-14 xl:pr-12">
             Casos de Éxito de nuestros clientes
           </div>
-          <div className="lg:w-2/3">
+          <div className="lg:w-2/3 text-neutral-600 text-lg">
             <Tabs.Content value="general">
               <Text size="small">
                 At ACME, we&apos;re dedicated to providing you with an
