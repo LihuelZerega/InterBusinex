@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Herosection from "./subcomps/Herosection";
 import Benefits from "./subcomps/Benefits";
 import Services from "./subcomps/Services";
+import Diferencies from "./subcomps/Diferencies";
 
 function page() {
   return (
@@ -12,9 +13,7 @@ function page() {
       <Herosection />
       <Benefits />
       <Services />
-      <div className="mx-auto max-w-7xl px-3 sm:px-6">
-
-      </div>
+      <Diferencies />
       <Footer />
     </div>
   );
