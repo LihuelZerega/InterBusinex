@@ -13,7 +13,7 @@ export default function Home() {
       <NextUIProvider>
         <Navbar />
         <Herosection />
-        <div className="mx-auto max-w-7xl px-3 sm:px-6 ">
+        <div className="mx-auto max-w-7xl px-3 sm:px-6">
           <About />
           <Trusted />
           <Faq />

@@ -3,7 +3,7 @@ import { ArrowUpRight01Icon } from "@/components/Icons";
 
 function About() {
   return (
-    <div className="bg-white mt-24 py-12">
+    <div className="bg-white mt-6 py-12">
       <section>
         <h2 className="text-4xl sm:text-5xl font-semibold text-[#05052b]">
           Sobre InterBusinex
