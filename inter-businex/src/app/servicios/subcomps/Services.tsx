@@ -14,8 +14,47 @@ import Gestion2 from "@/images/Gestion2.png";
 import Gestion3 from "@/images/Gestion3.png";
 
 function Services() {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+  const ViabilidadResponse1 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const ViabilidadResponse2 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const ViabilidadResponse3 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const ViabilidadResponse4 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const ViabilidadResponse5 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+
+  const DesarrolloResponse1 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const DesarrolloResponse2 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const DesarrolloResponse3 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const DesarrolloResponse4 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+
+  const AsesoriaResponse1 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const AsesoriaResponse2 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const AsesoriaResponse3 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const AsesoriaResponse4 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const AsesoriaResponse5 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+
+  const GestionResponse1 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const GestionResponse2 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const GestionResponse3 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const GestionResponse4 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
+  const GestionResponse5 =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc vel tincidunt lacinia, nunc nisl lacinia nisl, sit amet.";
 
   return (
     <div>
@@ -61,7 +100,7 @@ function Services() {
                     title="¿Cuál es el análisis de mercado para mis productos en el país de destino?"
                   >
                     <div className="text-base leading-relaxed text-gray-600">
-                      {defaultContent}
+                      {ViabilidadResponse1}
                     </div>
                   </AccordionItem>
                   <AccordionItem
@@ -69,28 +108,28 @@ function Services() {
                     aria-label="¿Qué barreras de entrada existen en el mercado objetivo?"
                     title="¿Qué barreras de entrada existen en el mercado objetivo?"
                   >
-                    {defaultContent}
+                    {ViabilidadResponse2}
                   </AccordionItem>
                   <AccordionItem
                     key="3"
                     aria-label="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
                     title="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
                   >
-                    {defaultContent}
+                    {ViabilidadResponse3}
                   </AccordionItem>
                   <AccordionItem
                     key="4"
                     aria-label="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
                     title="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
                   >
-                    {defaultContent}
+                    {ViabilidadResponse4}
                   </AccordionItem>
                   <AccordionItem
                     key="5"
                     aria-label="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
                     title="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
                   >
-                    {defaultContent}
+                    {ViabilidadResponse5}
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -105,52 +144,48 @@ function Services() {
             <div>
               <div>
                 <h2 className="text-4xl font-bold leading-tight text-[#05052b]">
-                  Viabilidad de proyectos
+                  Desarrollo de mercados
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-gray-600">
-                  Evaluamos la oportunidad de tu negocio realizando un análisis
-                  integral de factibilidad técnica, económica, operacional y
-                  ambiental que nos permita un proceso exitoso.
+                  Nos enfocamos en la búsqueda de nuevos mercados geográficos,
+                  aumentando tus ventas con la adaptación de tu producto o
+                  servicio para satisfacer las necesidad del mercado
+                  internacional. elaboramos un estudio de la competencia y
+                  establecemos redes de distribución y logística para alcanzar
+                  el objetivo.
                 </p>
               </div>
               <div className="mt-6">
                 <Accordion isCompact>
                   <AccordionItem
                     key="1"
-                    aria-label="¿Cuál es el análisis de mercado para mis productos en el país de destino?"
-                    title="¿Cuál es el análisis de mercado para mis productos en el país de destino?"
+                    aria-label="¿Cuáles son las tendencias actuales en el mercado internacional para mi sector?"
+                    title="¿Cuáles son las tendencias actuales en el mercado internacional para mi sector?"
                   >
                     <div className="text-base leading-relaxed text-gray-600">
-                      {defaultContent}
+                      {DesarrolloResponse1}
                     </div>
                   </AccordionItem>
                   <AccordionItem
                     key="2"
-                    aria-label="¿Qué barreras de entrada existen en el mercado objetivo?"
-                    title="¿Qué barreras de entrada existen en el mercado objetivo?"
+                    aria-label="¿Cómo están evolucionando las regulaciones comerciales en los mercados internacionales clave?"
+                    title="¿Cómo están evolucionando las regulaciones comerciales en los mercados internacionales clave?"
                   >
-                    {defaultContent}
+                    {DesarrolloResponse2}
                   </AccordionItem>
                   <AccordionItem
                     key="3"
-                    aria-label="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
-                    title="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
+                    aria-label="¿Cuáles son las mejores prácticas de marketing y ventas en el mercado internacional?"
+                    title="¿Cuáles son las mejores prácticas de marketing y ventas en el mercado internacional?"
                   >
-                    {defaultContent}
+                    {DesarrolloResponse3}
                   </AccordionItem>
                   <AccordionItem
                     key="4"
                     aria-label="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
                     title="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
                   >
-                    {defaultContent}
-                  </AccordionItem>
-                  <AccordionItem
-                    key="5"
-                    aria-label="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
-                    title="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
-                  >
-                    {defaultContent}
+                    {DesarrolloResponse4}
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -158,7 +193,7 @@ function Services() {
 
             <div className="lg:pr-0">
               <div className="block lg:hidden relative max-w-xs">
-              <Image
+                <Image
                   className="object-bottom rounded-2xl scale-90 xl:scale-80 xl:-left-12"
                   src={Desarrollo3}
                   alt=""
@@ -224,52 +259,55 @@ function Services() {
             <div>
               <div>
                 <h2 className="text-4xl font-bold leading-tight text-[#05052b]">
-                  Viabilidad de proyectos
+                  Asesoría en comercio exterior
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-gray-600">
-                  Evaluamos la oportunidad de tu negocio realizando un análisis
-                  integral de factibilidad técnica, económica, operacional y
-                  ambiental que nos permita un proceso exitoso.
+                  Ayudamos a tu empresa en el ambito del comercio internacional
+                  brindadndo conocimientos especializados y apoyo practico en
+                  todas las etapas del proces de internacionalizacion. <br />
+                  Optimizamos y expandimos tus actividaddes comerciales,
+                  minimizando los riesgos y maximizando oportunidad de exito en
+                  los mercados internacionales.
                 </p>
               </div>
               <div className="mt-6">
                 <Accordion isCompact>
                   <AccordionItem
                     key="1"
-                    aria-label="¿Cuál es el análisis de mercado para mis productos en el país de destino?"
-                    title="¿Cuál es el análisis de mercado para mis productos en el país de destino?"
+                    aria-label="¿Cuáles son los requisitos para exportar/importar productos a un país?"
+                    title="¿Cuáles son los requisitos para exportar/importar productos a un país?"
                   >
                     <div className="text-base leading-relaxed text-gray-600">
-                      {defaultContent}
+                      {AsesoriaResponse1}
                     </div>
                   </AccordionItem>
                   <AccordionItem
                     key="2"
-                    aria-label="¿Qué barreras de entrada existen en el mercado objetivo?"
-                    title="¿Qué barreras de entrada existen en el mercado objetivo?"
+                    aria-label="¿Qué aranceles e impuestos se aplican a mis productos?"
+                    title="¿Qué aranceles e impuestos se aplican a mis productos?"
                   >
-                    {defaultContent}
+                    {AsesoriaResponse2}
                   </AccordionItem>
                   <AccordionItem
                     key="3"
-                    aria-label="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
-                    title="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
+                    aria-label="¿Cómo puedo asegurarme de que mis envíos cumplan con las regulaciones de comercio internacional?"
+                    title="¿Cómo puedo asegurarme de que mis envíos cumplan con las regulaciones de comercio internacional?"
                   >
-                    {defaultContent}
+                    {AsesoriaResponse3}
                   </AccordionItem>
                   <AccordionItem
                     key="4"
-                    aria-label="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
-                    title="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
+                    aria-label="¿Cuál es el proceso para clasificar arancelariamente mis productos?"
+                    title="¿Cuál es el proceso para clasificar arancelariamente mis productos?"
                   >
-                    {defaultContent}
+                    {AsesoriaResponse4}
                   </AccordionItem>
                   <AccordionItem
                     key="5"
-                    aria-label="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
-                    title="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
+                    aria-label="¿Qué opciones de financiamiento y seguros están disponibles para mis operaciones de comercio internacional?"
+                    title="¿Qué opciones de financiamiento y seguros están disponibles para mis operaciones de comercio internacional?"
                   >
-                    {defaultContent}
+                    {AsesoriaResponse5}
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -284,52 +322,55 @@ function Services() {
             <div>
               <div>
                 <h2 className="text-4xl font-bold leading-tight text-[#05052b]">
-                  Viabilidad de proyectos
+                  Gestión Logística
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-gray-600">
-                  Evaluamos la oportunidad de tu negocio realizando un análisis
-                  integral de factibilidad técnica, económica, operacional y
-                  ambiental que nos permita un proceso exitoso.
+                  Trabajamos la eficiencia, calidad, rentabilidad de las
+                  operaciones logisticas de tus negocios y la entrega oportuna
+                  de tus productos y/o servicios. <br />
+                  Tenemos excelentes aliados estrategicos que nos permite
+                  brindar procesos multimodales minimizando costos y maximizando
+                  la satifaccion de tus clientes.
                 </p>
               </div>
               <div className="mt-6">
                 <Accordion isCompact>
                   <AccordionItem
                     key="1"
-                    aria-label="¿Cuál es el análisis de mercado para mis productos en el país de destino?"
-                    title="¿Cuál es el análisis de mercado para mis productos en el país de destino?"
+                    aria-label="¿Cuál es el costo y tiempo estimado de envío para mis productos?"
+                    title="¿Cuál es el costo y tiempo estimado de envío para mis productos?"
                   >
                     <div className="text-base leading-relaxed text-gray-600">
-                      {defaultContent}
+                      {GestionResponse1}
                     </div>
                   </AccordionItem>
                   <AccordionItem
                     key="2"
-                    aria-label="¿Qué barreras de entrada existen en el mercado objetivo?"
-                    title="¿Qué barreras de entrada existen en el mercado objetivo?"
+                    aria-label="¿Qué opciones de transporte están disponibles para mis productos?"
+                    title="¿Qué opciones de transporte están disponibles para mis productos?"
                   >
-                    {defaultContent}
+                    {GestionResponse2}
                   </AccordionItem>
                   <AccordionItem
                     key="3"
-                    aria-label="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
-                    title="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
+                    aria-label="¿Cómo puedo optimizar mi cadena de suministro internacional?"
+                    title="¿Cómo puedo optimizar mi cadena de suministro internacional?"
                   >
-                    {defaultContent}
+                    {GestionResponse3}
                   </AccordionItem>
                   <AccordionItem
                     key="4"
-                    aria-label="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
-                    title="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
+                    aria-label="¿Qué documentación es necesaria para el despacho aduanero?"
+                    title="¿Qué documentación es necesaria para el despacho aduanero?"
                   >
-                    {defaultContent}
+                    {GestionResponse4}
                   </AccordionItem>
                   <AccordionItem
                     key="5"
-                    aria-label="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
-                    title="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
+                    aria-label="¿Qué debo hacer en caso de retrasos o problemas en el envío?"
+                    title="¿Qué debo hacer en caso de retrasos o problemas en el envío?"
                   >
-                    {defaultContent}
+                    {GestionResponse5}
                   </AccordionItem>
                 </Accordion>
               </div>
@@ -337,7 +378,7 @@ function Services() {
 
             <div className="lg:pr-0">
               <div className="block lg:hidden relative max-w-xs">
-              <Image
+                <Image
                   className="object-bottom rounded-2xl scale-90 xl:scale-80 xl:-left-12"
                   src={Desarrollo3}
                   alt=""
