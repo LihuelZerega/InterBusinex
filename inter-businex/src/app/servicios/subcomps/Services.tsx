@@ -1,6 +1,17 @@
 "use client";
 import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
+import Image from "next/image";
+import Viabilidad1 from "@/images/Viabilidad1.png";
+import Viabilidad2 from "@/images/Viabilidad2.png";
+import Desarrollo1 from "@/images/Desarrollo1.png";
+import Desarrollo2 from "@/images/Desarrollo2.png";
+import Desarrollo3 from "@/images/Desarrollo3.png";
+import Asesoria1 from "@/images/Asesoria1.png";
+import Asesoria2 from "@/images/Asesoria2.png";
+import Gestion1 from "@/images/Gestion1.png";
+import Gestion2 from "@/images/Gestion2.png";
+import Gestion3 from "@/images/Gestion3.png";
 
 function Services() {
   const defaultContent =
@@ -8,21 +19,25 @@ function Services() {
 
   return (
     <div>
-      <section className="py-10 bg-white sm:py-16 lg:py-24">
-        <div className="max-w-5xl px-6 mx-auto lg:px-8">
+      <section className="py-12 bg-white sm:py-16 lg:py-24">
+        <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col-reverse items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div className="pr-12 sm:pr-0">
-              <div className="relative max-w-xs mb-12">
-                <img
-                  className="object-bottom rounded-2xl"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/man-eating-noodles.jpg"
+              <div className="relative max-w-xs">
+                <Image
+                  className="object-bottom rounded-2xl scale-100 xl:scale-80 xl:-left-12"
+                  src={Viabilidad1}
                   alt=""
+                  width={500}
+                  height={500}
                 />
 
-                <img
-                  className="absolute origin-bottom-right scale-75 rounded-2xl -bottom-12 -right-12"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/smiling-businessman.jpg"
+                <Image
+                  className="absolute origin-bottom-right scale-75 xl:scale-80 rounded-2xl -bottom-12 -right-12 xl:-right-64"
+                  src={Viabilidad2}
                   alt=""
+                  width={500}
+                  height={500}
                 />
               </div>
             </div>
@@ -84,8 +99,8 @@ function Services() {
         </div>
       </section>
 
-      <section className="py-10 bg-white sm:py-16 lg:py-24">
-        <div className="max-w-5xl px-6 mx-auto lg:px-8">
+      <section className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24">
+        <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div>
               <div>
@@ -141,17 +156,40 @@ function Services() {
               </div>
             </div>
 
-            <div className="pr-12 lg:pr-0">
-              <div className="relative max-w-xs mb-12">
-                <img
-                  className="object-bottom rounded-2xl"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/man-eating-noodles.jpg"
+            <div className="lg:pr-0">
+              <div className="block lg:hidden relative max-w-xs">
+              <Image
+                  className="object-bottom rounded-2xl scale-90 xl:scale-80 xl:-left-12"
+                  src={Desarrollo3}
+                  alt=""
+                  width={500}
+                  height={500}
+                />
+
+                <Image
+                  className="absolute origin-bottom-right scale-75 xl:scale-80 rounded-2xl -bottom-12 left-6"
+                  src={Desarrollo2}
+                  alt=""
+                  width={500}
+                  height={500}
+                />
+              </div>
+              <div className="hidden lg:block relative max-w-xs">
+                <Image
+                  className="absolute object-bottom scale-50 lg:scale-75 -bottom-8 sm:-bottom-[280px] rounded-2xl"
+                  src={Desarrollo1}
                   alt=""
                 />
 
-                <img
-                  className="absolute origin-bottom-right scale-75 rounded-2xl -bottom-12 -right-12"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/smiling-businessman.jpg"
+                <Image
+                  className="absolute object-bottom scale-50 lg:scale-75 -bottom-8 sm:-bottom-[540px] rounded-2xl"
+                  src={Desarrollo2}
+                  alt=""
+                />
+
+                <Image
+                  className="absolute origin-bottom-right scale-50 lg:scale-80 rounded-2xl sm:-bottom-[550px] xl:-bottom-[500px] md:-right-12 lg:-right-36 xl:-right-64"
+                  src={Desarrollo3}
                   alt=""
                 />
               </div>
@@ -160,21 +198,25 @@ function Services() {
         </div>
       </section>
 
-      <section className="py-10 bg-white sm:py-16 lg:py-24">
-        <div className="max-w-5xl px-6 mx-auto lg:px-8">
+      <section className="py-12 bg-white sm:py-16 lg:py-24">
+        <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col-reverse items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div className="pr-12 sm:pr-0">
-              <div className="relative max-w-xs mb-12">
-                <img
-                  className="object-bottom rounded-2xl"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/man-eating-noodles.jpg"
+              <div className="relative max-w-xs">
+                <Image
+                  className="object-bottom rounded-2xl scale-100 xl:scale-80 xl:-left-12"
+                  src={Asesoria1}
                   alt=""
+                  width={500}
+                  height={500}
                 />
 
-                <img
-                  className="absolute origin-bottom-right scale-75 rounded-2xl -bottom-12 -right-12"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/smiling-businessman.jpg"
+                <Image
+                  className="absolute origin-bottom-right scale-75 xl:scale-80 rounded-2xl -bottom-12 -right-12 xl:-right-64"
+                  src={Asesoria2}
                   alt=""
+                  width={500}
+                  height={500}
                 />
               </div>
             </div>
@@ -236,8 +278,8 @@ function Services() {
         </div>
       </section>
 
-      <section className="py-10 bg-white sm:py-16 lg:py-24">
-        <div className="max-w-5xl px-6 mx-auto lg:px-8">
+      <section className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24">
+        <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div>
               <div>
@@ -293,17 +335,40 @@ function Services() {
               </div>
             </div>
 
-            <div className="pr-12 lg:pr-0">
-              <div className="relative max-w-xs mb-12">
-                <img
-                  className="object-bottom rounded-2xl"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/man-eating-noodles.jpg"
+            <div className="lg:pr-0">
+              <div className="block lg:hidden relative max-w-xs">
+              <Image
+                  className="object-bottom rounded-2xl scale-90 xl:scale-80 xl:-left-12"
+                  src={Desarrollo3}
+                  alt=""
+                  width={500}
+                  height={500}
+                />
+
+                <Image
+                  className="absolute origin-bottom-right scale-75 xl:scale-80 rounded-2xl -bottom-12 left-6"
+                  src={Desarrollo2}
+                  alt=""
+                  width={500}
+                  height={500}
+                />
+              </div>
+              <div className="hidden lg:block relative max-w-xs">
+                <Image
+                  className="absolute object-bottom scale-50 lg:scale-75 -bottom-8 sm:-bottom-[280px] rounded-2xl"
+                  src={Gestion1}
                   alt=""
                 />
 
-                <img
-                  className="absolute origin-bottom-right scale-75 rounded-2xl -bottom-12 -right-12"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/features/4/smiling-businessman.jpg"
+                <Image
+                  className="absolute object-bottom scale-50 lg:scale-75 -bottom-8 sm:-bottom-[540px] rounded-2xl"
+                  src={Gestion2}
+                  alt=""
+                />
+
+                <Image
+                  className="absolute origin-bottom-right scale-50 lg:scale-80 rounded-2xl sm:-bottom-[550px] xl:-bottom-[500px] md:-right-12 lg:-right-36 xl:-right-64"
+                  src={Gestion3}
                   alt=""
                 />
               </div>
