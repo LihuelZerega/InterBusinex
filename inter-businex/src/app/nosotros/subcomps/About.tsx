@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import About1 from "@/images/QuienesSomos1.png";
 import About2 from "@/images/QuienesSomos2.png";
-import MisionVision1 from  "@/images/MisionVision1.png"
-import MisionVision2 from  "@/images/MisionVision2.png"
+import MisionVision1 from "@/images/MisionVision1.png";
+import MisionVision2 from "@/images/MisionVision2.png";
 
 function About() {
   return (
@@ -29,12 +29,20 @@ function About() {
 
             <div>
               <h2 className="text-3xl font-bold leading-tight text-[#05052b] lg:text-4xl">
-                Grow business with Celebration.
+                ¿Quienes somos?
               </h2>
               <p className="mt-4 text-base leading-relaxed text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                En Interbusinex, somos una empresa dedicada a impulsar la
+                expansión global de negocios a través de soluciones logísticas
+                integrales y estrategias personalizadas. Nuestra misión es
+                ayudar a las empresas a abrir nuevos mercados y maximizar sus
+                oportunidades de crecimiento internacional. Con un equipo de
+                expertos comprometidos y una sólida base de valores como el
+                compromiso, la seriedad y la responsabilidad, trabajamos
+                incansablemente para garantizar el éxito y la satisfacción de
+                nuestros clientes en cada proyecto. Nos enorgullecemos de ser su
+                conexión al mundo, ofreciendo un servicio de calidad que
+                transforma sus metas en realidades.
               </p>
             </div>
 
@@ -65,18 +73,19 @@ function About() {
                 Nuestra Misión
               </h2>
               <p className="mt-4 text-base leading-relaxed text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                Nuestra misión es construir planes integrales en la apertura de
+                nuevos mercados a quienes desean expandir su negocio.
               </p>
 
               <h2 className="text-3xl font-bold leading-tight text-[#05052b] lg:text-4xl mt-6">
                 Nuestra Visión
               </h2>
               <p className="mt-4 text-base leading-relaxed text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+                Nuestra Visión es transformar la logística en un plan integral
+                que desarrolle la apertura de nuevos mercados a través del
+                análisis, investigación y aplicación de estrategias desde los
+                primeros pasos hasta la incursión en nuevos territorios
+                convirtiéndose en líder del área.
               </p>
             </div>
 
