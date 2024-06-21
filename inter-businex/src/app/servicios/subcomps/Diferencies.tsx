@@ -2,24 +2,25 @@
 import React from "react";
 import Image from "next/image";
 import DiferenciesBgImage from "@/images/BgDiferencias.png";
+import DiferenciesBgImageMobile from "@/images/BgDiferenciasMobile.png";
 
 function Diferencies() {
   return (
-    <div className="h-[80vh] lg:h-[80vh] xl:h-[100vh] 2xl:h-[100vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle bg-opacity-30 bg-black">
-      <div className="h-full w-full object-cover absolute inset-0">
+    <div className="h-[100vh] lg:h-[100vh] xl:h-[100vh] 2xl:h-[100vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle bg-opacity-30 bg-black">
+      <div className="h-full lg:h-[100vh] w-full object-cover absolute inset-0">
         <Image
-          src={DiferenciesBgImage}
+          src={DiferenciesBgImageMobile}
           alt=""
           width={1080}
           height={1920}
-          className="block xl:hidden h-full w-full object-cover absolute inset-0"
+          className="block lg:hidden h-full w-full object-cover absolute inset-0"
         />
         <Image
           src={DiferenciesBgImage}
           alt=""
           width={1920}
           height={1040}
-          className="hidden xl:block h-full w-full object-cover absolute inset-0"
+          className="hidden lg:block h-full w-full object-cover absolute inset-0"
         />
       </div>
       <div className="absolute inset-0 z-10 flex items-center justify-center">
@@ -36,8 +37,8 @@ function Diferencies() {
                 mercados.
               </p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-6 py-12">
-              <div className="flex flex-col items-start py-6 lg:py-0">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-6 py-6 lg:py-12">
+              <div className="flex flex-row lg:flex-col items-start py-3 lg:py-0">
                 <div className="bg-[#05a4ff] p-3 rounded-3xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -62,8 +63,8 @@ function Diferencies() {
                     />
                   </svg>
                 </div>
-                <div>
-                  <h3 className="mt-6 font-semibold text-[#05052b]">
+                <div className="ml-4 lg:ml-0">
+                  <h3 className="lg:mt-6 font-semibold text-[#05052b]">
                     Análisis Integral de Factibilidad
                   </h3>
                   <p className="text-sm mt-4 font-medium text-neutral-600">
@@ -72,7 +73,7 @@ function Diferencies() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col items-start py-6 lg:py-0">
+              <div className="flex flex-row lg:flex-col items-start py-3 lg:py-0">
                 <div className="bg-[#05a4ff] p-3 rounded-3xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -125,8 +126,8 @@ function Diferencies() {
                     />
                   </svg>
                 </div>
-                <div>
-                  <h3 className="mt-6 font-semibold text-[#05052b]">
+                <div className="ml-4 lg:ml-0">
+                  <h3 className="lg:mt-6 font-semibold text-[#05052b]">
                     Expansión Personalizada
                   </h3>
                   <p className="text-sm mt-4 font-medium text-neutral-600">
@@ -134,7 +135,7 @@ function Diferencies() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col items-start py-6 lg:py-0">
+              <div className="flex flex-row lg:flex-col items-start py-3 lg:py-0">
                 <div className="bg-[#05a4ff] p-3 rounded-3xl">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -188,8 +189,8 @@ function Diferencies() {
                     />
                   </svg>
                 </div>
-                <div>
-                  <h3 className="mt-6 font-semibold text-[#05052b]">
+                <div className="ml-4 lg:ml-0">
+                  <h3 className="lg:mt-6 font-semibold text-[#05052b]">
                     Optimización Logística Eficiente
                   </h3>
                   <p className="text-sm mt-4 font-medium text-neutral-600">

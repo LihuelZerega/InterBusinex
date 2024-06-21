@@ -5,6 +5,7 @@ import Herosection from "./subcomps/Herosection";
 import Benefits from "./subcomps/Benefits";
 import Services from "./subcomps/Services";
 import Diferencies from "./subcomps/Diferencies";
+import Faq from "./subcomps/Faq";
 
 function page() {
   return (
@@ -14,6 +15,7 @@ function page() {
       <Benefits />
       <Services />
       <Diferencies />
+      <Faq />
       <Footer />
     </div>
   );

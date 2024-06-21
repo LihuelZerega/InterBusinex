@@ -17,30 +17,30 @@ export default function App() {
         <Accordion>
           <AccordionItem
             key="1"
-            aria-label="¿Que es Interbusinex?"
-            title="¿Que es Interbusinex?"
+            aria-label="¿Qué incluye el análisis de mercado de Interbusinex?"
+            title="¿Qué incluye el análisis de mercado de Interbusinex?"
             className="bg-white"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="2"
-            aria-label="¿Cual es la mision de Interbusinex?"
-            title="¿Cual es la mision de Interbusinex?"
+            aria-label="¿Cómo ayuda Interbusinex en la logística?"
+            title="¿Cómo ayuda Interbusinex en la logística?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="3"
-            aria-label="¿Que servicios ofrece Interbusinex?"
-            title="¿Que servicios ofrece Interbusinex?"
+            aria-label="¿Interbusinex ofrece asesoramiento continuo?"
+            title="¿Interbusinex ofrece asesoramiento continuo?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="4"
-            aria-label="¿Por que elegir Interbusinex?"
-            title="¿Por que elegir Interbusinex?"
+            aria-label="¿Qué beneficios ofrecen las estrategias de entrada de Interbusinex?"
+            title="¿Qué beneficios ofrecen las estrategias de entrada de Interbusinex?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
