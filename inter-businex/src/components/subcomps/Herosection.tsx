@@ -8,8 +8,8 @@ const Herosection = () => {
   return (
     <div className="h-[80vh] lg:h-[80vh] xl:h-[100vh] 2xl:h-[100vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle bg-opacity-30 bg-black">
       <div className="h-full w-full object-cover absolute inset-0">
-        <Image src={HeroMobile} alt="" width={1080} height={1920} className="block xl:hidden h-full w-full object-cover absolute inset-0"/>
-        <Image src={HeroImage} alt="" width={1920} height={1040} className="hidden xl:block h-full w-full object-cover absolute inset-0"/>
+        <Image src={HeroMobile} alt="" width={1080} height={1920} className="block xl:hidden h-full w-full object-cover absolute inset-0 rounded-b-2xl"/>
+        <Image src={HeroImage} alt="" width={1920} height={1040} className="hidden xl:block h-full w-full object-cover absolute inset-0 rounded-b-2xl"/>
       </div>
       <div className="absolute inset-0 z-10 flex flex-col text-left xl:ml-12">
         <div className="py-32 sm:py-48 lg:py-56">

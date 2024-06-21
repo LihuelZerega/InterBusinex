@@ -5,7 +5,7 @@ function Benefits() {
     <div className="bg-neutral-50 py-24">
       <div className="pb-6">
         <h3 className="text-3xl lg:text-4xl font-bold text-center text-[#05052b]">
-          ¿Por qué elegir InterBusinex?
+          ¿Por qué elegir InterBusineX?
         </h3>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 items-center mx-auto gap-x-8 gap-y-8 max-w-6xl p-12">

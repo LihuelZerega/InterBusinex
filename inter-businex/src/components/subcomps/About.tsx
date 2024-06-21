@@ -6,7 +6,7 @@ function About() {
     <div className="bg-white mt-6 py-12">
       <section>
         <h2 className="text-4xl sm:text-5xl font-semibold text-[#05052b]">
-          Sobre InterBusinex
+          Sobre InterBusineX
         </h2>
         <p className="text-lg text-neutral-700 max-w-2xl my-4">
           Nos esforzamos por ser lideres en nuestro campo, impulsando el

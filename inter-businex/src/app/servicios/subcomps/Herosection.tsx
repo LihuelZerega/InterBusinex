@@ -13,14 +13,14 @@ const Herosection = () => {
           alt=""
           width={1080}
           height={1920}
-          className="block xl:hidden h-full w-full object-cover absolute inset-0"
+          className="block xl:hidden h-full w-full object-cover absolute inset-0 rounded-b-2xl"
         />
         <Image
           src={HeroImage}
           alt=""
           width={1920}
           height={1040}
-          className="hidden xl:block h-full w-full object-cover absolute inset-0"
+          className="hidden xl:block h-full w-full object-cover absolute inset-0 rounded-b-2xl"
         />
       </div>
       <div className="absolute inset-0 z-10 flex flex-col text-left xl:ml-12">

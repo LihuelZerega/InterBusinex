@@ -7,7 +7,7 @@ export default function App() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
   return (
-    <div className="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8 py-12 sm:py-16">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12 sm:py-16">
       <div>
         <h2 className="text-[#05052b] text-center font-semibold text-3xl">
           Preguntas Frecuentes
@@ -17,30 +17,30 @@ export default function App() {
         <Accordion>
           <AccordionItem
             key="1"
-            aria-label="¿Qué incluye el análisis de mercado de Interbusinex?"
-            title="¿Qué incluye el análisis de mercado de Interbusinex?"
+            aria-label="¿Qué incluye el análisis de mercado de InterBusineX?"
+            title="¿Qué incluye el análisis de mercado de InterBusineX?"
             className="bg-white"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="2"
-            aria-label="¿Cómo ayuda Interbusinex en la logística?"
-            title="¿Cómo ayuda Interbusinex en la logística?"
+            aria-label="¿Cómo ayuda InterBusineX en la logística?"
+            title="¿Cómo ayuda InterBusineX en la logística?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="3"
-            aria-label="¿Interbusinex ofrece asesoramiento continuo?"
-            title="¿Interbusinex ofrece asesoramiento continuo?"
+            aria-label="¿InterBusineX ofrece asesoramiento continuo?"
+            title="¿InterBusineX ofrece asesoramiento continuo?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="4"
-            aria-label="¿Qué beneficios ofrecen las estrategias de entrada de Interbusinex?"
-            title="¿Qué beneficios ofrecen las estrategias de entrada de Interbusinex?"
+            aria-label="¿Qué beneficios ofrecen las estrategias de entrada de InterBusineX?"
+            title="¿Qué beneficios ofrecen las estrategias de entrada de InterBusineX?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>

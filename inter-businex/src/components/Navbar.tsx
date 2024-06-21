@@ -7,7 +7,7 @@ import {
   Cancel01Icon,
   ArrowUpRight03Icon,
 } from "@/components/Icons";
-import LogoInterBusinex from "@/images/logo.jpg"
+import LogoInterBusineX from "@/images/logo.jpg"
 
 const navigation = [
   { name: "Inicio", href: "/" },
@@ -27,10 +27,10 @@ export default function Example() {
         >
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">InterBusinex</span>
+              <span className="sr-only">InterBusineX</span>
               <Image
                 className="h-8 w-auto"
-                src={LogoInterBusinex}
+                src={LogoInterBusineX}
                 width={200}
                 height={200}
                 alt=""
@@ -79,10 +79,10 @@ export default function Example() {
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-700/10">
             <div className="flex items-center justify-between">
               <a href="/" className="-m-1.5 p-1.5">
-                <span className="sr-only">InterBusinex</span>
+                <span className="sr-only">InterBusineX</span>
                 <Image
                   className="h-8 w-auto"
-                  src={LogoInterBusinex}
+                  src={LogoInterBusineX}
                   width={200}
                   height={200}
                   alt=""

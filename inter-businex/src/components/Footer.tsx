@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LogoInterBusinex from "@/images/logo.jpg";
+import LogoInterBusineX from "@/images/logo.jpg";
 
 function Footer() {
   return (
@@ -8,7 +8,7 @@ function Footer() {
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
           <div className="col-span-2 md:col-span-4 xl:pr-8">
-            <p className="text-white text-2xl font-bold">InterBusinex</p>
+            <p className="text-white text-2xl font-bold">InterBusineX</p>
 
             <p className="text-base leading-relaxed text-gray-300 mt-7">
               Creemos en un mundo donde las barreras comerciales no existen.
@@ -137,7 +137,7 @@ function Footer() {
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
                   {" "}
-                  info@interbusinex.com{" "}
+                  info@InterBusineX.com{" "}
                 </a>
               </li>
 
@@ -159,7 +159,7 @@ function Footer() {
 
         <div className="sm:flex sm:items-center sm:justify-between">
           <p className="text-sm text-gray-400">
-            © Copyright 2024, Todos los derechos reservados por Interbusinex.
+            © Copyright 2024, Todos los derechos reservados por InterBusineX.
           </p>
 
         </div>

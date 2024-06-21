@@ -7,7 +7,7 @@ export default function App() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
   return (
-    <div className="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8 py-12 sm:py-16">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12 sm:py-16">
       <div>
         <h2 className="text-[#05052b] text-center font-semibold text-3xl">
           Preguntas Frecuentes
@@ -17,30 +17,30 @@ export default function App() {
         <Accordion>
           <AccordionItem
             key="1"
-            aria-label="¿Que es Interbusinex?"
-            title="¿Que es Interbusinex?"
+            aria-label="¿Que es InterBusineX?"
+            title="¿Que es InterBusineX?"
             className="bg-white"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="2"
-            aria-label="¿Cual es la mision de Interbusinex?"
-            title="¿Cual es la mision de Interbusinex?"
+            aria-label="¿Cual es la mision de InterBusineX?"
+            title="¿Cual es la mision de InterBusineX?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="3"
-            aria-label="¿Que servicios ofrece Interbusinex?"
-            title="¿Que servicios ofrece Interbusinex?"
+            aria-label="¿Que servicios ofrece InterBusineX?"
+            title="¿Que servicios ofrece InterBusineX?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="4"
-            aria-label="¿Por que elegir Interbusinex?"
-            title="¿Por que elegir Interbusinex?"
+            aria-label="¿Por que elegir InterBusineX?"
+            title="¿Por que elegir InterBusineX?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
