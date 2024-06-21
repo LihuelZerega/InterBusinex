@@ -6,7 +6,7 @@ import { ArrowUpRight01Icon } from "@/components/Icons";
 
 const Herosection = () => {
   return (
-    <div className="h-[80vh] lg:h-[80vh] xl:h-[100vh] 2xl:h-[100vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle bg-opacity-30 bg-black">
+    <div className="h-[80vh] lg:h-[80vh] xl:h-[100vh] 2xl:h-[100vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle bg-white">
       <div className="h-full w-full object-cover absolute inset-0">
         <Image
           src={HeroMobile}

@@ -9,7 +9,7 @@ function About() {
           Sobre InterBusineX
         </h2>
         <p className="text-lg text-neutral-700 max-w-2xl my-4">
-          Nos esforzamos por ser lideres en nuestro campo, impulsando el
+          Nos esforzamos por ser líderes en nuestro sector, impulsando el
           crecimiento económico global a través de soluciones innovadoras y
           personalizadas:
         </p>
@@ -22,9 +22,9 @@ function About() {
               Viabilidad de proyectos
             </h3>
             <p className="text-neutral-600">
-              Evaluamos la oportunidad de tu negocio realizando un análisis
+              Evaluamos la oportunidad de tu negocio, realizando un análisis
               integral de factibilidad técnica, económica, operacional y
-              ambiental que nos permita un proceso exitoso.
+              ambiental que nos permita alcanzar un proceso exitoso.
             </p>
             <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
               MAS INFO
@@ -41,7 +41,7 @@ function About() {
               Desarrollo de mercados
             </h3>
             <p className="text-neutral-600">
-              Nos enfocamos en la búsqueda de estrategias, para la expansión de
+              Nos enfocamos en la búsqueda de estrategias para la expansión de
               tu negocio a partir de la conquista de nuevos mercados.
             </p>
             <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
@@ -60,7 +60,7 @@ function About() {
             </h3>
             <p className="text-neutral-600">
               Ayudamos a tu negocio en la globalización, brindando conocimientos
-              especializados y apoyo practico en todas las etapas del proceso.
+              especializados y apoyo práctico en todas las etapas del proceso.
             </p>
             <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
               MAS INFO
@@ -77,9 +77,9 @@ function About() {
               Gestión logística
             </h3>
             <p className="text-neutral-600">
-              Gestionamos alianzas estratégicas que nos permite brindar procesos
-              multimodales. Aportamos eficiencia, calidad y rentabilidad de las
-              operaciones logísticas de tu negocio.
+              Gestionamos alianzas estratégicas que nos permiten brindar
+              procesos multimodales. Aportamos eficiencia, calidad y
+              rentabilidad de las operaciones logísticas de tu negocio.
             </p>
             <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
               MAS INFO

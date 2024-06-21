@@ -3,8 +3,12 @@ import React from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 
 export default function App() {
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+  const Response1 =
+    "Somos tu partner estratégico, especialistas en oportunidades de negocio y apertura de nuevos mercados.";
+  const Response2 =
+    "Construir proyectos integrales para expandir tu negocio con un enfoque competitivo.";
+  const Response3 =
+    "Viabilidad de proyectos, Desarrollo de mercados, Asesoría en comercio exterior y Gestión logística.";
 
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12 sm:py-16">
@@ -21,28 +25,21 @@ export default function App() {
             title="¿Que es InterBusineX?"
             className="bg-white"
           >
-            <div className="text-neutral-600">{defaultContent}</div>
+            <div className="text-neutral-600">{Response1}</div>
           </AccordionItem>
           <AccordionItem
             key="2"
-            aria-label="¿Cual es la mision de InterBusineX?"
-            title="¿Cual es la mision de InterBusineX?"
+            aria-label="¿Cuál es la misión de InterBusineX?"
+            title="¿Cuál es la misión de InterBusineX?"
           >
-            <div className="text-neutral-600">{defaultContent}</div>
+            <div className="text-neutral-600">{Response2}</div>
           </AccordionItem>
           <AccordionItem
             key="3"
-            aria-label="¿Que servicios ofrece InterBusineX?"
-            title="¿Que servicios ofrece InterBusineX?"
+            aria-label="¿Qué servicios ofrece InterBusineX?"
+            title="¿Qué servicios ofrece InterBusineX?"
           >
-            <div className="text-neutral-600">{defaultContent}</div>
-          </AccordionItem>
-          <AccordionItem
-            key="4"
-            aria-label="¿Por que elegir InterBusineX?"
-            title="¿Por que elegir InterBusineX?"
-          >
-            <div className="text-neutral-600">{defaultContent}</div>
+            <div className="text-neutral-600">{Response3}</div>
           </AccordionItem>
         </Accordion>
       </div>

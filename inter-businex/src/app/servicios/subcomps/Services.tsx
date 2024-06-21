@@ -149,8 +149,8 @@ function Services() {
                 <p className="mt-4 text-base leading-relaxed text-gray-600">
                   Nos enfocamos en la búsqueda de nuevos mercados geográficos,
                   aumentando tus ventas con la adaptación de tu producto o
-                  servicio para satisfacer las necesidad del mercado
-                  internacional. elaboramos un estudio de la competencia y
+                  servicio para satisfacer las necesidades del mercado
+                  internacional. Elaboramos un estudio de la competencia y
                   establecemos redes de distribución y logística para alcanzar
                   el objetivo.
                 </p>
@@ -262,12 +262,10 @@ function Services() {
                   Asesoría en comercio exterior
                 </h2>
                 <p className="mt-4 text-base leading-relaxed text-gray-600">
-                  Ayudamos a tu empresa en el ambito del comercio internacional
-                  brindadndo conocimientos especializados y apoyo practico en
-                  todas las etapas del proces de internacionalizacion. <br />
-                  Optimizamos y expandimos tus actividaddes comerciales,
-                  minimizando los riesgos y maximizando oportunidad de exito en
-                  los mercados internacionales.
+                  Ayudamos a tu empresa en todos los procesos del comercio
+                  internacional. Brindamos conocimientos técnicos y
+                  especializados a través de una gestión práctica en todas sus
+                  etapas.
                 </p>
               </div>
               <div className="mt-6">
