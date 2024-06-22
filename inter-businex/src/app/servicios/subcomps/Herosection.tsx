@@ -32,7 +32,7 @@ const Herosection = () => {
             <div className="mt-10 flex flex-col items-center justify-center xl:items-start xl:justify-start gap-x-6 gap-y-3">
               <div className="flex flex-col xl:flex-row gap-x-6 gap-y-4">
                 <a
-                  href="#proyectos"
+                  href="#viabilidad"
                   className="text-white bg-[#05a4ff] hover:bg-sky-500 px-10 xl:px-2 py-2 rounded-md text-xl"
                 >
                   Viabilidad de proyectos
@@ -52,7 +52,7 @@ const Herosection = () => {
                   Asesoría en comercio exterior
                 </a>
                 <a
-                  href="#gestion"
+                  href="#gestion-logistica"
                   className="text-white bg-[#05a4ff] hover:bg-sky-500 px-2 py-2 rounded-md text-xl"
                 >
                   Gestión Logística

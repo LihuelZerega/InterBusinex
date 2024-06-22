@@ -93,52 +93,44 @@ function Services() {
                 </p>
               </div>
               <div className="mt-6">
-                <Accordion isCompact>
-                  <AccordionItem
-                    key="1"
-                    aria-label="¿Cuál es el análisis de mercado para mis productos en el país de destino?"
-                    title="¿Cuál es el análisis de mercado para mis productos en el país de destino?"
-                  >
-                    <div className="text-base leading-relaxed text-gray-600">
-                      {ViabilidadResponse1}
-                    </div>
-                  </AccordionItem>
-                  <AccordionItem
-                    key="2"
-                    aria-label="¿Qué barreras de entrada existen en el mercado objetivo?"
-                    title="¿Qué barreras de entrada existen en el mercado objetivo?"
-                  >
-                    {ViabilidadResponse2}
-                  </AccordionItem>
-                  <AccordionItem
-                    key="3"
-                    aria-label="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
-                    title="¿Cuál es el costo estimado de llevar a cabo el proyecto de exportación/importación?"
-                  >
-                    {ViabilidadResponse3}
-                  </AccordionItem>
-                  <AccordionItem
-                    key="4"
-                    aria-label="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
-                    title="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
-                  >
-                    {ViabilidadResponse4}
-                  </AccordionItem>
-                  <AccordionItem
-                    key="5"
-                    aria-label="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
-                    title="¿Qué estrategias de entrada al mercado recomienda para maximizar el éxito?"
-                  >
-                    {ViabilidadResponse5}
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <p className="text-base text-neutral-700">
+                    ¿Quieres evaluar la posibilidad de expandir tu negocio?
+                  </p>
+                  <hr className="my-4" />
+                  <p className="text-base text-neutral-700">
+                    ¿Necesitas llegar a otros mercados siendo competitivo?
+                  </p>
+                  <hr className="my-4" />
+                  <p className="text-base text-neutral-700">
+                    ¿Te interesa encontrar oportunidades para
+                    internacionalizarte?
+                  </p>
+                  <hr className="my-4" />
+                  <p className="text-base text-neutral-700">
+                    ¿Tienes las herramientas para hacerlo?
+                  </p>
+                  <hr className="my-4" />
+                </div>
+                <div>
+                  <p className="text-base text-neutral-700">
+                    Nuestro grupo de expertos te brindan todas las alternativas.
+                    <a href="/contacto" className="text-sky-500">
+                      {" "}
+                      Contáctanos
+                    </a>{" "}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="desarrollo" className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24">
+      <section
+        id="desarrollo"
+        className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24"
+      >
         <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div>
@@ -156,38 +148,35 @@ function Services() {
                 </p>
               </div>
               <div className="mt-6">
-                <Accordion isCompact>
-                  <AccordionItem
-                    key="1"
-                    aria-label="¿Cuáles son las tendencias actuales en el mercado internacional para mi sector?"
-                    title="¿Cuáles son las tendencias actuales en el mercado internacional para mi sector?"
-                  >
-                    <div className="text-base leading-relaxed text-gray-600">
-                      {DesarrolloResponse1}
-                    </div>
-                  </AccordionItem>
-                  <AccordionItem
-                    key="2"
-                    aria-label="¿Cómo están evolucionando las regulaciones comerciales en los mercados internacionales clave?"
-                    title="¿Cómo están evolucionando las regulaciones comerciales en los mercados internacionales clave?"
-                  >
-                    {DesarrolloResponse2}
-                  </AccordionItem>
-                  <AccordionItem
-                    key="3"
-                    aria-label="¿Cuáles son las mejores prácticas de marketing y ventas en el mercado internacional?"
-                    title="¿Cuáles son las mejores prácticas de marketing y ventas en el mercado internacional?"
-                  >
-                    {DesarrolloResponse3}
-                  </AccordionItem>
-                  <AccordionItem
-                    key="4"
-                    aria-label="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
-                    title="¿Cuáles son los riesgos asociados con este proyecto y cómo puedo mitigarlos?"
-                  >
-                    {DesarrolloResponse4}
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <p className="text-base text-neutral-700">
+                    ¿Quieres abrir mercados? ¿sabes cómo?
+                  </p>
+                  <hr className="my-4" />
+                  <p className="text-base text-neutral-700">
+                    ¿Buscas aumentar tu red de negocio?, ¿necesitas un
+                    marketplace o distribuidor autorizado? (B2B / B2C)
+                  </p>
+                  <hr className="my-4" />
+                  <p className="text-base text-neutral-700">
+                    ¿Conoces las tendencias de mercado y tu público objetivo?
+                  </p>
+                  <hr className="my-4" />
+                  <p className="text-base text-neutral-700">
+                    ¿Necesitas evaluar la competencia de tu negocio y superar
+                    las barreras comerciales?
+                  </p>
+                  <hr className="my-4" />
+                </div>
+                <div>
+                  <p className="text-base text-neutral-700">
+                    Nuestro grupo de expertos te brindan todas las alternativas.
+                    <a href="/contacto" className="text-sky-500">
+                      {" "}
+                      Contáctanos
+                    </a>{" "}
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -269,52 +258,47 @@ function Services() {
                 </p>
               </div>
               <div className="mt-6">
-                <Accordion isCompact>
-                  <AccordionItem
-                    key="1"
-                    aria-label="¿Cuáles son los requisitos para exportar/importar productos a un país?"
-                    title="¿Cuáles son los requisitos para exportar/importar productos a un país?"
-                  >
-                    <div className="text-base leading-relaxed text-gray-600">
-                      {AsesoriaResponse1}
-                    </div>
-                  </AccordionItem>
-                  <AccordionItem
-                    key="2"
-                    aria-label="¿Qué aranceles e impuestos se aplican a mis productos?"
-                    title="¿Qué aranceles e impuestos se aplican a mis productos?"
-                  >
-                    {AsesoriaResponse2}
-                  </AccordionItem>
-                  <AccordionItem
-                    key="3"
-                    aria-label="¿Cómo puedo asegurarme de que mis envíos cumplan con las regulaciones de comercio internacional?"
-                    title="¿Cómo puedo asegurarme de que mis envíos cumplan con las regulaciones de comercio internacional?"
-                  >
-                    {AsesoriaResponse3}
-                  </AccordionItem>
-                  <AccordionItem
-                    key="4"
-                    aria-label="¿Cuál es el proceso para clasificar arancelariamente mis productos?"
-                    title="¿Cuál es el proceso para clasificar arancelariamente mis productos?"
-                  >
-                    {AsesoriaResponse4}
-                  </AccordionItem>
-                  <AccordionItem
-                    key="5"
-                    aria-label="¿Qué opciones de financiamiento y seguros están disponibles para mis operaciones de comercio internacional?"
-                    title="¿Qué opciones de financiamiento y seguros están disponibles para mis operaciones de comercio internacional?"
-                  >
-                    {AsesoriaResponse5}
-                  </AccordionItem>
-                </Accordion>
+                <div>
+                  <p className="text-base text-neutral-700">
+                    ¿Buscas traspasar fronteras? Importa y exporta con nosotros.
+                  </p>
+                  <hr className="my-4" />
+                  <p className="text-base text-neutral-700">
+                    ¿Conoces la distribución física internacional idónea para
+                    tus productos?
+                  </p>
+                  <hr className="my-4" />
+                  <p className="text-base text-neutral-700">
+                    ¿Necesitas las técnicas para que tu negocio supere aduanas,
+                    conoces la normativa?
+                  </p>
+                  <hr className="my-4" />
+                  <p className="text-base text-neutral-700">
+                    ¿Te interesa encontrar ventajas arancelarias a nivel
+                    internacional cumpliendo con las regulaciones del comercio
+                    internacional?
+                  </p>
+                  <hr className="my-4" />
+                </div>
+                <div>
+                  <p className="text-base text-neutral-700">
+                    Nuestro grupo de expertos te brindan todas las alternativas.
+                    <a href="/contacto" className="text-sky-500">
+                      {" "}
+                      Contáctanos
+                    </a>{" "}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="gestion-logistica" className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24">
+      <section
+        id="gestion-logistica"
+        className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24"
+      >
         <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div>
@@ -411,6 +395,7 @@ function Services() {
                   alt=""
                 />
               </div>
+              
             </div>
           </div>
         </div>
