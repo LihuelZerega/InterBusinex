@@ -58,7 +58,7 @@ function Services() {
 
   return (
     <div>
-      <section className="py-12 bg-white sm:py-16 lg:py-24">
+      <section id="viabilidad" className="py-12 bg-white sm:py-16 lg:py-24">
         <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col-reverse items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div className="pr-12 sm:pr-0">
@@ -138,7 +138,7 @@ function Services() {
         </div>
       </section>
 
-      <section className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24">
+      <section id="desarrollo" className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24">
         <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div>
@@ -233,7 +233,7 @@ function Services() {
         </div>
       </section>
 
-      <section className="py-12 bg-white sm:py-16 lg:py-24">
+      <section id="asesoria" className="py-12 bg-white sm:py-16 lg:py-24">
         <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col-reverse items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div className="pr-12 sm:pr-0">
@@ -314,7 +314,7 @@ function Services() {
         </div>
       </section>
 
-      <section className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24">
+      <section id="gestion-logistica" className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24">
         <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
             <div>

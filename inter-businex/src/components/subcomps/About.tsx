@@ -26,12 +26,14 @@ function About() {
               integral de factibilidad técnica, económica, operacional y
               ambiental que nos permita alcanzar un proceso exitoso.
             </p>
-            <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
-              MAS INFO
-              <span className="ml-1">
-                <ArrowUpRight01Icon />
-              </span>
-            </button>
+            <a href="/servicios#viabilidad">
+              <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
+                MAS INFO
+                <span className="ml-1">
+                  <ArrowUpRight01Icon />
+                </span>
+              </button>
+            </a>
           </div>
         </div>
         <div>
@@ -44,12 +46,14 @@ function About() {
               Nos enfocamos en la búsqueda de estrategias para la expansión de
               tu negocio a partir de la conquista de nuevos mercados.
             </p>
-            <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
-              MAS INFO
-              <span className="ml-1">
-                <ArrowUpRight01Icon />
-              </span>
-            </button>
+            <a href="/servicios#desarrollo">
+              <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
+                MAS INFO
+                <span className="ml-1">
+                  <ArrowUpRight01Icon />
+                </span>
+              </button>
+            </a>
           </div>
         </div>
         <div>
@@ -62,12 +66,14 @@ function About() {
               Ayudamos a tu negocio en la globalización, brindando conocimientos
               especializados y apoyo práctico en todas las etapas del proceso.
             </p>
-            <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
-              MAS INFO
-              <span className="ml-1">
-                <ArrowUpRight01Icon />
-              </span>
-            </button>
+            <a href="/servicios#asesoria">
+              <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
+                MAS INFO
+                <span className="ml-1">
+                  <ArrowUpRight01Icon />
+                </span>
+              </button>
+            </a>
           </div>
         </div>
         <div>
@@ -81,12 +87,14 @@ function About() {
               procesos multimodales. Aportamos eficiencia, calidad y
               rentabilidad de las operaciones logísticas de tu negocio.
             </p>
-            <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
-              MAS INFO
-              <span className="ml-1">
-                <ArrowUpRight01Icon />
-              </span>
-            </button>
+            <a href="/servicios#gestion-logistica">
+              <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
+                MAS INFO
+                <span className="ml-1">
+                  <ArrowUpRight01Icon />
+                </span>
+              </button>
+            </a>
           </div>
         </div>
       </section>
