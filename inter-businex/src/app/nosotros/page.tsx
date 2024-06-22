@@ -15,7 +15,9 @@ function page() {
       <div className="bg-neutral-50">
         <Values />
       </div>
-      <Faq />
+      <div className="bg-white">
+        <Faq />
+      </div>
       <Footer />
     </div>
   );
