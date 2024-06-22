@@ -15,7 +15,9 @@ export default function Home() {
         <Herosection />
         <div className="mx-auto max-w-7xl px-3 sm:px-6">
           <About />
-          <Trusted />
+        </div>
+        <Trusted />
+        <div className="mx-auto max-w-7xl px-3 sm:px-6">
           <Faq />
         </div>
         <Footer />
