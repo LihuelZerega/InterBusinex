@@ -5,10 +5,13 @@ import About from "./subcomps/About";
 import Values from "./subcomps/Values";
 import Faq from "./subcomps/Faq";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsappButton";
 
 function page() {
   return (
     <div>
+        <WhatsAppButton />
+
       <Navbar />
       <Herosection />
       <About />

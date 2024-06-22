@@ -6,11 +6,13 @@ import About from "@/components/subcomps/About";
 import { Trusted } from "@/components/subcomps/Trusted";
 import Herosection from "@/components/subcomps/Herosection";
 import Faq from "@/components/subcomps/Faq";
+import WhatsAppButton from "@/components/WhatsappButton";
 
 export default function Home() {
   return (
     <div className="bg-white">
       <NextUIProvider>
+        <WhatsAppButton />
         <Navbar />
         <Herosection />
         <div className="mx-auto max-w-7xl px-3 sm:px-6">

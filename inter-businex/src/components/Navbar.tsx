@@ -7,7 +7,7 @@ import {
   Cancel01Icon,
   ArrowUpRight03Icon,
 } from "@/components/Icons";
-import LogoInterBusineX from "@/images/logo.jpg"
+import LogoInterBusineX from "@/images/logointerbusinex.png";
 
 const navigation = [
   { name: "Inicio", href: "/" },
@@ -29,7 +29,7 @@ export default function Example() {
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">InterBusineX</span>
               <Image
-                className="h-8 w-auto"
+                className="h-10 w-auto"
                 src={LogoInterBusineX}
                 width={200}
                 height={200}
