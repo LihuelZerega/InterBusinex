@@ -32,12 +32,12 @@ export function Trusted() {
               <div className="lg:w-2/3 xl:w-3/5 text-neutral-600 text-lg">
                 <Tabs.Content value="bluewaters">
                   <Text size="small">
-                    "Nuestra empresa no tenía experiencia en
+                    Nuestra empresa no tenía experiencia en
                     Comercio Internacional. Iniciamos una Viabilidad de
                     Proyecto, logrando el crecimiento de nuestra compañía a
                     nivel Internacional, a base del compromiso, la excelencia y
                     el profesionalismo del grupo InterBusinex. Gracias a su
-                    gestión, hoy somos importadores directos."
+                    gestión, hoy somos importadores directos.
                   </Text>
                 </Tabs.Content>
                 <Tabs.Content value="shipping">
