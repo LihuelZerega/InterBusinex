@@ -50,7 +50,7 @@ function About() {
         <div>
           <div className="w-full h-56 rounded-lg">
             <Image
-              src={ViabilidadHome}
+              src={DesarrolloHome}
               alt=""
               className="w-full h-full object-cover rounded-lg"
             />
