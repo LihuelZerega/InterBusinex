@@ -4,6 +4,7 @@ import Image from "next/image";
 import TrustedBg from "@/images/TrustedBg.png";
 import TrustedBgMobile from "@/images/TrustedBg.png";
 import { Tabs, Text } from "@medusajs/ui";
+import BlueWatersLogo from "@/images/logo-blue-waters-fondo-claro.png";
 
 export function Trusted() {
   return (
@@ -25,7 +26,7 @@ export function Trusted() {
       <div className="absolute inset-0 z-10 flex items-center justify-center mx-auto max-w-7xl px-3 sm:px-6 -top-12 sm:top-0 2xl:top-36">
         <div className="w-full bg-white shadow-xl p-6 sm:p-12 rounded-2xl">
           <Tabs defaultValue="bluewaters">
-            <div className="flex flex-col lg:flex-row w-full mb-6">
+            <div className="flex flex-col lg:flex-row w-full mb-12">
               <div className="lg:w-1/3 xl:w-2/5 text-3xl md:text-4xl xl:text-5xl font-semibold text-[#05052b] mb-4 lg:mb-0 lg:pr-14 xl:pr-12">
                 Casos de Éxito de nuestros clientes
               </div>
@@ -63,17 +64,17 @@ export function Trusted() {
             </div>
 
             <Tabs.List className="grid grid-cols-1 sm:grid-cols-3 gap-y-6 gap-x-4 lg:gap-x-8 xl:gap-x-10 w-full">
-              <div className="bg-red-300 w-full h-36 rounded-lg">
+              <div className="bg-transparent w-full h-36 rounded-lg">
                 <Tabs.Trigger value="bluewaters" className="w-full h-full">
-                  BlueWaters
+                  <Image src={BlueWatersLogo} alt="Blue Waters Logo"/>
                 </Tabs.Trigger>
               </div>
-              <div className="bg-red-300 w-full h-36 rounded-lg">
+              <div className="bg-red-300 w-full h-40 rounded-lg shadow-sm">
                 <Tabs.Trigger value="shipping" className="w-full h-full">
                   Shipping
                 </Tabs.Trigger>
               </div>
-              <div className="bg-red-300 w-full h-36 rounded-lg">
+              <div className="bg-red-300 w-full h-36 rounded-lg shadow-sm">
                 <Tabs.Trigger value="payment" className="w-full h-full">
                   Payment
                 </Tabs.Trigger>

@@ -97,7 +97,7 @@ const Herosection = () => {
       >
         <section className="h-1/2 sm:w-1/2 my-6 sm:my-0 pr-0 sm:pr-24">
           <div className="flex flex-col pb-4 text-center sm:text-left">
-            <span className="text-2xl font-medium text-neutral-200 pb-2">
+            <span className="text-2xl font-medium text-neutral-200 pb-2 mt-12 sm:mt-0">
               ¡CONTACTANOS!
             </span>
             <h3 className="text-3xl text-center sm:text-left sm:text-4xl lg:text-5xl text-white font-semibold">

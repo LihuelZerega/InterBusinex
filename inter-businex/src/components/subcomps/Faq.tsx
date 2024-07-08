@@ -8,7 +8,7 @@ export default function App() {
   const Response2 =
     "Construir proyectos integrales para expandir tu negocio con un enfoque competitivo.";
   const Response3 =
-    "Viabilidad de proyectos, Desarrollo de mercados, Asesoría en comercio exterior y Gestión logística.";
+    "Viabilidad de proyectos, desarrollo de mercados, asesoría en comercio exterior y gestión logística.";
 
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12 sm:py-16">

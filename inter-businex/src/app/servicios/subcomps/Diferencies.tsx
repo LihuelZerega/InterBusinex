@@ -131,7 +131,8 @@ function Diferencies() {
                     Expansión Personalizada
                   </h3>
                   <p className="text-sm mt-4 font-medium text-neutral-600">
-                    Realizamos estudios de competencia y establecemos redes de distribución y logística para tus ventas globales
+                    Realizamos estudios de competencia y establecemos redes de
+                    distribución y logística para tus ventas globales.
                   </p>
                 </div>
               </div>
@@ -194,7 +195,9 @@ function Diferencies() {
                     Optimización Logística Eficiente
                   </h3>
                   <p className="text-sm mt-4 font-medium text-neutral-600">
-                    Trabajamos en la eficiencia, calidad y rentabilidad de tus operaciones logísticas.
+                    Trabajamos en la eficiencia, calidad y rentabilidad de tus
+                    operaciones logísticas con un acompañamiento en todo tu
+                    proceso.
                   </p>
                 </div>
               </div>

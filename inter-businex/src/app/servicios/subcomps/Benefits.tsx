@@ -32,7 +32,7 @@ function Benefits() {
               Partner Estratégico
             </h4>
             <p className="text-neutral-600 font-medium text-sm mt-2">
-              Contanos con la infraestructura integral para ser tu aliado de
+              Contamos con la infraestructura integral para ser tu aliado de
               confianza.
             </p>
           </div>
@@ -108,7 +108,7 @@ function Benefits() {
             </h4>
             <p className="text-neutral-600 font-medium text-sm mt-2">
               Ofrecemos soluciones prácticas para usar tus recursos de la manera
-              mmas eficiente.
+              mas eficiente.
             </p>
           </div>
         </div>
