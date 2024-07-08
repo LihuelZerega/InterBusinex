@@ -39,7 +39,7 @@ function About() {
             </p>
             <a href="/servicios#viabilidad">
               <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
-                MAS INFO
+                MÁS INFO
                 <span className="ml-1">
                   <ArrowUpRight01Icon />
                 </span>
@@ -65,7 +65,7 @@ function About() {
             </p>
             <a href="/servicios#desarrollo">
               <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
-                MAS INFO
+                MÁS INFO
                 <span className="ml-1">
                   <ArrowUpRight01Icon />
                 </span>
@@ -91,7 +91,7 @@ function About() {
             </p>
             <a href="/servicios#asesoria">
               <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
-                MAS INFO
+                MÁS INFO
                 <span className="ml-1">
                   <ArrowUpRight01Icon />
                 </span>
@@ -118,7 +118,7 @@ function About() {
             </p>
             <a href="/servicios#gestion-logistica">
               <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
-                MAS INFO
+                MÁS INFO
                 <span className="ml-1">
                   <ArrowUpRight01Icon />
                 </span>
