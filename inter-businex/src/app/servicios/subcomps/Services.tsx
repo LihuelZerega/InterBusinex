@@ -304,7 +304,7 @@ function Services() {
         animate={inView4 ? "visible" : "hidden"}
         variants={itemVariants}
         id="gestion-logistica"
-        className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24"
+        className="pt-12 pb-24 sm:pt-0 sm:pb-0 bg-white sm:py-16 lg:py-24 lg:mb-56"
       >
         <div className="max-w-7xl px-6 mx-auto lg:px-8">
           <div className="flex flex-col items-start md:grid md:grid-cols-2 gap-y-10 md:gap-x-10">
