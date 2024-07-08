@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LogoInterBusineX from "@/images/logo.jpg";
+import LogoInterBusineX from "@/images/LOGO-512-BLANCO.png";
 
 function Footer() {
   return (
@@ -8,7 +8,15 @@ function Footer() {
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
           <div className="col-span-2 md:col-span-4 xl:pr-8">
-            <p className="text-white text-2xl font-bold">InterBusineX</p>
+            <div className="flex items-center">
+              <Image
+                src={LogoInterBusineX}
+                alt="InterBusineX"
+                width={40}
+                height={40}
+              />
+              <p className="text-white text-2xl font-bold">InterBusineX</p>
+            </div>
 
             <p className="text-base leading-relaxed text-gray-300 mt-7">
               Creemos en un mundo donde las barreras comerciales no existen.
@@ -25,8 +33,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  Viabilidad de proyectos{" "}
+                  Viabilidad de proyectos
                 </a>
               </li>
 
@@ -36,8 +43,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  Desarrollo de mercados{" "}
+                  Desarrollo de mercados
                 </a>
               </li>
 
@@ -47,8 +53,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  Asesoria en comercio exterior{" "}
+                  Asesoría en comercio exterior
                 </a>
               </li>
 
@@ -58,8 +63,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  Gestión Logística{" "}
+                  Gestión Logística
                 </a>
               </li>
             </ul>
@@ -75,8 +79,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  Quienes somos{" "}
+                  Quiénes somos
                 </a>
               </li>
 
@@ -86,8 +89,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  Misión{" "}
+                  Misión
                 </a>
               </li>
 
@@ -97,8 +99,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  Visión{" "}
+                  Visión
                 </a>
               </li>
 
@@ -108,8 +109,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  Valores{" "}
+                  Valores
                 </a>
               </li>
             </ul>
@@ -125,8 +125,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  +54 1234 5678{" "}
+                  +54 1234 5678
                 </a>
               </li>
 
@@ -136,8 +135,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  info@InterBusineX.com{" "}
+                  info@InterBusineX.com
                 </a>
               </li>
 
@@ -147,8 +145,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  {" "}
-                  Formulario de Contacto{" "}
+                  Formulario de Contacto
                 </a>
               </li>
             </ul>
@@ -161,7 +158,6 @@ function Footer() {
           <p className="text-sm text-gray-400">
             © Copyright 2024, Todos los derechos reservados por InterBusineX.
           </p>
-
         </div>
       </div>
     </section>
