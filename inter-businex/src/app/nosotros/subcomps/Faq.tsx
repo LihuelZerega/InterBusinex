@@ -10,7 +10,7 @@ export default function App() {
   const Response3 =
     "La principal diferencia entre InterBusineX y otras empresas del mercado es que nosotros ofrecemos una solución integral que abarca diversos aspectos. Nos enfocamos no solo en la gestión logística, sino también en el desarrollo de mercado, la viabilidad del proyecto y la asesoría en comercio exterior.";
   const Response4 =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.";
+    "En InterBusineX, asumimos diversas responsabilidades sociales: Sostenibilidad ambiental, ética empresarial, desarrollo comunitario, diversidad e inclusión y responsabilidad laboral.";
 
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12 sm:py-16">

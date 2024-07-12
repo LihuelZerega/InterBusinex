@@ -132,7 +132,7 @@ const Herosection = () => {
                   strokeLinejoin="round"
                 />
               </svg>
-              <h3 className="text-xl text-white">info@InterBusineX.com</h3>
+              <h3 className="text-xl text-white"> interbusinex@gmail.com</h3>
             </div>
             <div className="flex flex-row items-center space-x-2 mt-2">
               <svg

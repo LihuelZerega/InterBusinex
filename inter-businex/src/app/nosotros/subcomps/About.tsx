@@ -8,7 +8,7 @@ import MisionVision2 from "@/images/MisionVision2.png";
 function About() {
   return (
     <div>
-      <section className="py-10 bg-white sm:py-16 lg:py-24">
+      <section id="about" className="py-10 bg-white sm:py-16 lg:py-24">
         <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="grid items-start md:grid-cols-2 gap-y-10 md:gap-x-20">
             <div className="hidden sm:block pr-12 sm:pr-0">
@@ -69,7 +69,7 @@ function About() {
         <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="grid items-start md:grid-cols-2 gap-y-10 md:gap-x-20">
             <div>
-              <h2 className="text-3xl font-bold leading-tight text-[#05052b] lg:text-4xl">
+              <h2 id="mision" className="text-3xl font-bold leading-tight text-[#05052b] lg:text-4xl">
                 Nuestra Misión
               </h2>
               <p className="mt-4 text-base leading-relaxed text-gray-600">
@@ -77,7 +77,7 @@ function About() {
                 nuevos mercados a quienes desean expandir su negocio.
               </p>
 
-              <h2 className="text-3xl font-bold leading-tight text-[#05052b] lg:text-4xl mt-6">
+              <h2 id="vision" className="text-3xl font-bold leading-tight text-[#05052b] lg:text-4xl mt-6">
                 Nuestra Visión
               </h2>
               <p className="mt-4 text-base leading-relaxed text-gray-600">

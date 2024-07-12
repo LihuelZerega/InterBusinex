@@ -29,7 +29,7 @@ function Footer() {
             <ul className="mt-6 space-y-4">
               <li>
                 <a
-                  href="#"
+                  href="/servicios#viabilidad"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
@@ -39,7 +39,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/servicios#desarrollo"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
@@ -49,7 +49,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/servicios#asesoria"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
@@ -59,7 +59,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/servicios#gestion-logistica"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
@@ -75,7 +75,7 @@ function Footer() {
             <ul className="mt-6 space-y-5">
               <li>
                 <a
-                  href="#"
+                  href="/nosotros#about"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
@@ -85,7 +85,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/nosotros#mision"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
@@ -95,7 +95,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/nosotros#vision"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
@@ -105,7 +105,7 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/nosotros#valores"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
@@ -121,7 +121,7 @@ function Footer() {
             <ul className="mt-6 space-y-5">
               <li>
                 <a
-                  href="#"
+                  href="/contacto"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
@@ -131,17 +131,17 @@ function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/contacto"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  info@InterBusineX.com
+                  interbusinex@gmail.com
                 </a>
               </li>
 
               <li>
                 <a
-                  href="#"
+                  href="/contacto"
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
