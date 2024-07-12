@@ -22,7 +22,7 @@ export default function Example() {
   const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
-    const mailtoLink = `mailto:francogianini2@gmail.com?subject=Formulario de Contacto&body=Nombre: ${formData.firstName} ${formData.lastName}%0D%0ACompañía: ${formData.company}%0D%0AEmail: ${formData.email}%0D%0ANúmero de Teléfono: ${formData.phoneNumber}%0D%0AMensaje: ${formData.message}`;
+    const mailtoLink = `mailto:interbusinex@gmail.com?subject=Formulario de Contacto&body=Nombre: ${formData.firstName} ${formData.lastName}%0D%0ACompañía: ${formData.company}%0D%0AEmail: ${formData.email}%0D%0ANúmero de Teléfono: ${formData.phoneNumber}%0D%0AMensaje: ${formData.message}`;
 
     window.location.href = mailtoLink;
   };
