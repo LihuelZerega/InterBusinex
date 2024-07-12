@@ -17,29 +17,29 @@ export default function App() {
         <Accordion>
           <AccordionItem
             key="1"
-            aria-label="¿Cuál es la visión de Interbusinex?"
-            title="¿Cuál es la visión de Interbusinex?"
+            aria-label="¿Cuál es la visión de InterBusineX?"
+            title="¿Cuál es la visión de InterBusineX?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="2"
             aria-label="¿Cuáles son los valores fundamentales de InterBusineX?"
-            title="¿Cuáles son los valores fundamentales de Interbusinex?"
+            title="¿Cuáles son los valores fundamentales de InterBusineX?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="3"
-            aria-label="¿Cómo demuestra Interbusinex su responsabilidad social?"
-            title="¿Cómo demuestra Interbusinex su responsabilidad social?"
+            aria-label="¿Cómo demuestra InterBusineX su responsabilidad social?"
+            title="¿Cómo demuestra InterBusineX su responsabilidad social?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>
           <AccordionItem
             key="4"
-            aria-label="¿Qué diferencia a Interbusinex de otras empresas del sector?"
-            title="¿Qué diferencia a Interbusinex de otras empresas del sector?"
+            aria-label="¿Qué diferencia a InterBusineX de otras empresas del sector?"
+            title="¿Qué diferencia a InterBusineX de otras empresas del sector?"
           >
             <div className="text-neutral-600">{defaultContent}</div>
           </AccordionItem>

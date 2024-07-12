@@ -30,14 +30,15 @@ const Herosection = () => {
               Sobre <br /> InterBusineX
             </h1>
             <p className="px-6 sm:px-0 mt-6 text-sm md:text-base xl:text-xl xl:leading-8 text-white">
-              En InterBusineX, transformamos la logistica en un plan integral
-              <br className="hidden xl:block" /> que impulsa la apertura de
-              nuevos mercados. Con un enfoque en{" "}
-              <br className="hidden xl:block" /> el compromiso, la seriedad y la
-              responsabilidad, trabajamos <br className="hidden xl:block" />{" "}
-              incansablemente para convertirnos en lideres en el area y{" "}
-              <br className="hidden xl:block" /> asegurar el exito de nuestros
-              clientes.
+              En InterBusineX, transformamos la logística en un plan integral
+              <br className="hidden lg:block" />
+              que impulsa la apertura de nuevos mercados. Con un enfoque en el
+              <br className="hidden lg:block" />
+              compromiso, la seriedad y la responsabilidad, trabajamos
+              incansablemente
+              <br className="hidden lg:block" />
+              para convertirnos en líderes en el área y asegurar el éxito de
+              nuestros clientes.
             </p>
           </div>
         </div>

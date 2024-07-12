@@ -32,7 +32,7 @@ function About() {
                 ¿Quienes somos?
               </h2>
               <p className="mt-4 text-base leading-relaxed text-gray-600">
-                En Interbusinex, somos una empresa dedicada a impulsar la
+                En InterBusineX, somos una empresa dedicada a impulsar la
                 expansión global de negocios a través de soluciones logísticas
                 integrales y estrategias personalizadas. Nuestra misión es
                 ayudar a las empresas a abrir nuevos mercados y maximizar sus

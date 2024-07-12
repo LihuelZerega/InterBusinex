@@ -7,7 +7,7 @@ import {
   Cancel01Icon,
   ArrowUpRight03Icon,
 } from "@/components/Icons";
-import LogoInterBusineX from "@/images/logointerbusinex.png";
+import LogoInterBusineX from "@/images/logo-con-celeste-y-negro.png";
 
 const navigation = [
   { name: "Inicio", href: "/" },

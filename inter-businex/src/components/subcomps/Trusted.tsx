@@ -37,7 +37,7 @@ export function Trusted() {
                     Comercio Internacional. Iniciamos una Viabilidad de
                     Proyecto, logrando el crecimiento de nuestra compañía a
                     nivel Internacional, a base del compromiso, la excelencia y
-                    el profesionalismo del grupo InterBusinex. Gracias a su
+                    el profesionalismo del grupo InterBusineX. Gracias a su
                     gestión, hoy somos importadores directos.
                   </Text>
                 </Tabs.Content>
