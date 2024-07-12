@@ -13,14 +13,14 @@ export function Trusted() {
         <Image
           src={TrustedBgMobile}
           alt=""
-          className="block sm:hidden w-full h-[110vh]"
+          className="block sm:hidden w-full h-[950px]"
         />
       </div>
       <div className="relative">
         <Image
           src={TrustedBg}
           alt=""
-          className="hidden sm:block w-full lg:h-[40vh] xl:h-[70vh] 2xl:h-[80vh]"
+          className="hidden sm:block w-full lg:h-[80vh] 2xl:h-[80vh]"
         />
       </div>
       <div className="absolute inset-0 z-10 flex items-center justify-center mx-auto max-w-7xl px-3 sm:px-6 -top-12 sm:top-0 2xl:top-36">
