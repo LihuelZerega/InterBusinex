@@ -86,8 +86,9 @@ function About() {
               Asesoría en comercio exterior
             </h3>
             <p className="text-neutral-600">
-              Ayudamos a tu negocio en la globalización, brindando conocimientos
-              especializados y apoyo práctico en todas las etapas del proceso.
+              Te acompañamos en el proceso de globalización de tu negocio.
+              Brindamos conocimiento especializado y apoyo práctico en todas las
+              etapas.
             </p>
             <a href="/servicios#asesoria">
               <button className="flex flex-row items-center bg-[#05a4ff] hover:bg-sky-400 transition-all duration-200 text-white font-light rounded-md px-4 py-2 my-4 sm:my-6">
@@ -112,7 +113,7 @@ function About() {
               Gestión logística
             </h3>
             <p className="text-neutral-600">
-              Gestionamos alianzas estratégicas que nos permiten brindar
+              Gestionamos alianzas estratégicas que nos permiten ofrecer
               procesos multimodales. Aportamos eficiencia, calidad y
               rentabilidad de las operaciones logísticas de tu negocio.
             </p>

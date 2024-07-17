@@ -57,7 +57,7 @@ export default function App() {
           ¿No encontraste la respuesta que buscabas?{" "}
           <br className="sm:hidden" />
           <a href="/contacto" className="text-[#05a4ff] hover:text-sky-400">
-            Contactá con nuestro soporte.
+            Contacta con nuestro soporte.
           </a>
         </p>
       </div>

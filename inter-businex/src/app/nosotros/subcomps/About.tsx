@@ -31,7 +31,7 @@ function About() {
               <h2 className="text-3xl font-bold leading-tight text-[#05052b] lg:text-4xl">
                 ¿Quienes somos?
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base text-justify leading-relaxed text-gray-600">
                 En InterBusineX, somos una empresa dedicada a impulsar la
                 expansión global de negocios a través de soluciones logísticas
                 integrales y estrategias personalizadas. Nuestra misión es

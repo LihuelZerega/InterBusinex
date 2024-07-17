@@ -33,9 +33,9 @@ export function Trusted() {
               <div className="lg:w-2/3 xl:w-3/5 text-neutral-600 text-lg">
                 <Tabs.Content value="bluewaters">
                   <Text size="small">
-                    Nuestra empresa no tenía experiencia en
-                    Comercio Internacional. Iniciamos una Viabilidad de
-                    Proyecto, logrando el crecimiento de nuestra compañía a
+                    Nuestra empresa no tenía experiencia en Comercio
+                    Internacional. Iniciamos un estudio de viabilidad de
+                    proyecto, logrando el crecimiento de nuestra compañía a
                     nivel Internacional, a base del compromiso, la excelencia y
                     el profesionalismo del grupo InterBusineX. Gracias a su
                     gestión, hoy somos importadores directos.
@@ -66,7 +66,7 @@ export function Trusted() {
             <Tabs.List className="grid grid-cols-1 sm:grid-cols-3 gap-y-6 gap-x-4 lg:gap-x-8 xl:gap-x-10 w-full">
               <div className="bg-transparent w-full h-36 rounded-lg">
                 <Tabs.Trigger value="bluewaters" className="w-full h-full">
-                  <Image src={BlueWatersLogo} alt="Blue Waters Logo"/>
+                  <Image src={BlueWatersLogo} alt="Blue Waters Logo" />
                 </Tabs.Trigger>
               </div>
               <div className="bg-red-300 w-full h-40 rounded-lg shadow-sm">

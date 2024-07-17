@@ -21,7 +21,6 @@ const itemVariants = {
 };
 
 function Services() {
-
   const [ref1, inView1] = useInView({
     triggerOnce: true,
     threshold: 0.1,
