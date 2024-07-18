@@ -28,12 +28,12 @@ function Diferencies() {
           <div className="flex flex-col bg-white p-6 lg:p-12 rounded-2xl">
             <div>
               <h3 className="text-4xl font-semibold text-[#05052b]">
-                ¿Que nos hace diferentes?
+                ¿Qué nos hace diferentes?
               </h3>
               <p className="text-sm mt-4 text-neutral-600">
                 Con un enfoque en la calidad, responsabilidad y compromiso,
-                trabajamos incansablemente para <br /> superar tus expectativas
-                y garantizar el crecimiento sostenible de tu negocio en nuevos
+                trabajamos incansablemente <br /> para superar tus expectativas
+                y obtener el crecimiento sostenible de tu negocio en nuevos
                 mercados.
               </p>
             </div>
@@ -68,8 +68,9 @@ function Diferencies() {
                     Análisis Integral de Factibilidad
                   </h3>
                   <p className="text-sm mt-4 font-medium text-neutral-600">
-                    Enfoque integral que nos permite garantizar un proceso
-                    exitoso y alineado con tus objetivos y estratégias.
+                    Desarrollamos un enfoque integral que nos permite garantizar
+                    un proceso exitoso y alineado con tus objetivos y
+                    estrategias.
                   </p>
                 </div>
               </div>

@@ -8,7 +8,7 @@ export default function App() {
   const defaultContent2 =
     "InterBusineX ofrece una variedad de servicios y soluciones para mejorar la logística de sus clientes. Estos servicios están diseñados para optimizar la cadena de suministro, reducir costos y aumentar la eficiencia operativa. ";
   const defaultContent3 =
-    "Sí ofrecemos asesoramiento continuo a todos nuestros clientes. Nuestro compromiso es el de proporcionar soluciones integrales y apoyo constante en todas las operaciones.";
+    "Sí, ofrecemos asesoramiento continuo a todos nuestros clientes. Nuestro compromiso es el de proporcionar soluciones integrales y apoyo constante en todas las operaciones.";
   const defaultContent4 =
     "Ponemos a tu disposición todos los recursos, para que abras mercados de una forma segura y eficiente.";
 

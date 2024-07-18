@@ -79,7 +79,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  Quiénes somos
+                  Quienes somos
                 </a>
               </li>
 

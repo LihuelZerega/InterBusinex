@@ -8,9 +8,9 @@ export default function App() {
   const Response2 =
     "Nuestros valores son: Compromiso, seriedad, responsabilidad, fidelización, transparencia, confianza, integridad y calidad.";
   const Response3 =
-    "La principal diferencia entre InterBusineX y otras empresas del mercado es que nosotros ofrecemos una solución integral que abarca diversos aspectos. Nos enfocamos no solo en la gestión logística, sino también en el desarrollo de mercado, la viabilidad del proyecto y la asesoría en comercio exterior.";
+    "La principal diferencia entre InterBusineX y otras empresas del mercado es que nosotros ofrecemos una solución integral que abarca diversos aspectos. Nos enfocamos no sólo en la gestión logística, sino también en el desarrollo de mercado, la viabilidad del proyecto y la asesoría en comercio exterior.";
   const Response4 =
-    "En InterBusineX, asumimos diversas responsabilidades sociales: Sostenibilidad ambiental, ética empresarial, desarrollo comunitario, diversidad e inclusión y responsabilidad laboral.";
+    "En InterBusineX, asumimos diversas responsabilidades sociales: sostenibilidad ambiental, ética empresarial, desarrollo comunitario, diversidad e inclusión y responsabilidad laboral.";
 
   return (
     <div className="mx-auto max-w-7xl px-6 lg:px-8 py-12 sm:py-16">
