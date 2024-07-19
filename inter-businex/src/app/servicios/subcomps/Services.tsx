@@ -356,7 +356,7 @@ function Services() {
               <div className="block lg:hidden relative max-w-xs">
                 <Image
                   className="object-bottom rounded-2xl scale-90 xl:scale-80 xl:-left-12"
-                  src={Desarrollo3}
+                  src={Gestion3}
                   alt=""
                   width={500}
                   height={500}
@@ -364,7 +364,7 @@ function Services() {
 
                 <Image
                   className="absolute origin-bottom-right scale-75 xl:scale-80 rounded-2xl -bottom-12 left-6"
-                  src={Desarrollo2}
+                  src={Gestion2}
                   alt=""
                   width={500}
                   height={500}
