@@ -19,7 +19,7 @@ function Footer() {
             </div>
 
             <p className="text-base leading-relaxed text-gray-300 mt-7">
-              Creemos en un mundo donde las barreras comerciales no existen.
+              Creemos en un mundo en el que las barreras comerciales no existen.
             </p>
           </div>
 
