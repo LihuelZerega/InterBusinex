@@ -155,7 +155,7 @@ const Herosection = () => {
                   strokeWidth="1.5"
                 />
               </svg>
-              <h3 className="text-xl text-white">+52 1 55 1234 5678</h3>
+              <h3 className="text-xl text-white">+34 603 90 24 32</h3>
             </div>
           </div>
         </section>

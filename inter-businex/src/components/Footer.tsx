@@ -125,7 +125,7 @@ function Footer() {
                   title=""
                   className="flex text-sm text-neutral-300 transition-all duration-200 hover:text-[#05a4ff] focus:text-[#05a4ff]"
                 >
-                  +54 1234 5678
+                  +34 603 90 24 32
                 </a>
               </li>
 

@@ -4,7 +4,7 @@ import { AiOutlineWhatsApp } from 'react-icons/ai'
 
 const WhatsAppButton = () => {
   const redirectToWhatsApp = () => {
-    const url = 'https://wa.me/11111111';
+    const url = 'https://wa.me/+34603902432';
     window.location.href = url;
   };
 
