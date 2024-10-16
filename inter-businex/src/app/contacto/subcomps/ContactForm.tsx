@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
+import Modal from "react-modal";
 
-export default function Example() {
+export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
     lastName: "",
@@ -10,28 +11,28 @@ export default function Example() {
     phoneNumber: "",
     message: "",
   });
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [modalMessage, setModalMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        ...formData,
+      }),
+    });
 
-      if (res.ok) {
-        alert("Mensaje enviado correctamente");
-      } else {
-        alert("Error al enviar el mensaje");
-      }
-    } catch (error) {
-      console.error("Error:", error);
-      alert("Error en el servidor al intentar enviar el mensaje");
+    if (res.ok) {
+      setModalMessage("¡Mensaje enviado correctamente!");
+    } else {
+      setModalMessage("Error al enviar el mensaje");
     }
+    setModalIsOpen(true);
   };
 
   return (
@@ -173,6 +174,25 @@ export default function Example() {
           </button>
         </div>
       </form>
+
+      {/* Modal para el mensaje de éxito o error */}
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={() => setModalIsOpen(false)}
+        contentLabel="Mensaje de Envío"
+        className="fixed inset-0 flex items-center justify-center z-50"
+        overlayClassName="fixed inset-0 bg-black bg-opacity-50"
+      >
+        <div className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto">
+          <h2 className="text-lg font-semibold text-neutral-800">{modalMessage}</h2>
+          <button
+            onClick={() => setModalIsOpen(false)}
+            className="mt-4 px-4 py-2 bg-[#05a4ff] text-white rounded-md"
+          >
+            Cerrar
+          </button>
+        </div>
+      </Modal>
     </div>
   );
 }
